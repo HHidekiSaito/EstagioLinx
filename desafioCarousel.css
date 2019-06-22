@@ -1,0 +1,127 @@
+a {
+	display: block;
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 6px rgba(0,0,0,.4);
+    color: #000;
+    text-decoration: none;
+    font-family: arial;
+}
+
+
+/* */
+
+
+#tituloPrincipal {
+	display:inline-block;
+	width: 15%;
+	padding: 20px;
+    margin: 10px;
+	font-family: arial;
+	color: red;
+	color: darkblue;
+}
+
+#tituloRecomendacoes {
+	display:inline-block;
+	padding: 20px;
+    margin: 10px;
+	width: 70%;
+	font-family: arial;
+	color: darkblue;
+}
+
+.carousel {
+	
+	position: relative;
+	height: 370px;
+	width: 60%;
+	margin: 0 auto;
+	display: inline-block;
+			
+}
+
+.carousel__image {
+	
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* ajusta a imagem pro tamanho da tela e div*/
+	
+}
+
+.carousel__track-container {
+	
+	/*background: lightgreen; */
+	height:100%;
+	position:relative;
+	overflow: hidden;
+	
+}
+
+.carousel_track {
+	
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+	height: 100%;
+	transition: transform 250ms ease-in;
+	
+}
+
+.carousel__slide {
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	width: 250px;
+	
+}
+
+.carousel__button {
+	
+	position:absolute; 
+	top:50%; /* coloca o topo da imagem botao no meio*/
+	transform: translateY(-50%);
+    backgroung: transparent;
+	border: 0;
+	cursor:pointer;
+	
+}
+
+.carousel__button--left {
+	
+	left:-40px; /*movendo o botao da esquerda */
+	font-size: 40px;
+}
+
+.carousel__button--right {
+	
+	right:-40px; /*movendo o botao da direita */
+	font-size: 40px;
+}
+
+.carousel__button img {
+	
+	width: 12px;
+	
+}
+li{
+	
+	list-style: none; /* retira marcacoes da lista */
+	
+}
+
+#principal {
+	
+    display: inline-block;
+    top: -33px;
+    position: relative;
+	right: -15px;
+	
+}
+
